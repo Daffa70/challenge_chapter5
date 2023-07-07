@@ -1,0 +1,24 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.10.0",
+    "sequelize": "^6.31.0",
+    "sequelize-cli": "^6.6.0",
+    "swagger-ui-express": "^4.6.3",
+    "yaml": "^2.2.2"
+  }
+}
